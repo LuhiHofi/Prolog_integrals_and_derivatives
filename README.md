@@ -4,7 +4,7 @@
 Lukáš Hofman
 
 ## Description
-This Prolog program calculates integrals and derivatives of mathematical functions. It uses a library created by Jakub Smolík for simplifying mathematical expressions. However, it doesn't support integrating compound functions as it can be without an integral aswell as integrating  by substitution as it's challenging to choose what to substitute for. Additionally, it utilizes `simple.pl` to handle fractions and prevent recursion errors.
+This Prolog program calculates integrals and derivatives of mathematical functions. It uses a library created by Jakub Smolík for simplifying mathematical expressions (The whole Expression-simplification folder). However, it doesn't support integrating compound functions as it can be without an integral aswell as integrating  by substitution as it's challenging to choose what to substitute for. Additionally, it utilizes `simple.pl` to handle fractions and prevent recursion errors.
 
 ## Files
 - `simplify.pl`: Library for simplifying mathematical expressions.
