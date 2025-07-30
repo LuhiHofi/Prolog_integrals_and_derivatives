@@ -1,7 +1,7 @@
 # Integral and Derivative Calculator
 
-## Author
-Lukáš Hofman
+**author**: Lukáš Hofman  
+MFF UK 2024 
 
 ## Description
 This Prolog program calculates integrals and derivatives of mathematical functions. It uses a library created by Jakub Smolík for simplifying mathematical expressions - https://github.com/Couleslaw/Expression-simplification. (The whole Expression-simplification folder). However, it doesn't support integrating compound functions as it can be without an integral aswell as integrating  by substitution as it's challenging to choose what to substitute for. Additionally, it utilizes `simple.pl` to handle fractions and prevent recursion errors.
