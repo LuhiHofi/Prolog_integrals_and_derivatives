@@ -1,7 +1,7 @@
 # Integral and Derivative Calculator
 
 **author**: Lukáš Hofman  
-MFF UK 2024 
+Updated September 2026 
 
 ## Description
 This Prolog program calculates integrals and derivatives of mathematical functions. It uses a library created by Jakub Smolík for simplifying mathematical expressions - https://github.com/Couleslaw/Expression-simplification. (The whole Expression-simplification folder). Integration by substitution is supported only in the form ∫ f(g(x))·g'(x) dx = F(g(x)) (see [Integrals](#integrals)), because in general it's challenging to choose what to substitute for. Functions without an elementary primitive function (e.g. `sin(x^2)`, `e^(x^2)`, `x^x`) fail instead of returning a wrong result. Additionally, it utilizes `simple.pl` to handle fractions and prevent recursion errors.
